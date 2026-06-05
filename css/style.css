@@ -522,3 +522,53 @@ font-size:18px;
     background:white;
     color:#1E4FAF;
 }
+
+.locations{
+    padding:100px 0;
+    background:#f7fbff;
+}
+
+.locations h2{
+    text-align:center;
+    font-size:42px;
+    color:#0f1a3d;
+    margin-bottom:15px;
+}
+
+.locations-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.locations-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.location-card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.06);
+}
+
+.location-card h3{
+    color:#1E4FAF;
+    margin-bottom:15px;
+}
+
+.location-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+@media(max-width:900px){
+
+    .locations-grid{
+        grid-template-columns:1fr;
+    }
+
+}
