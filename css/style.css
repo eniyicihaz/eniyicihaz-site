@@ -256,16 +256,16 @@ font-size:18px;
 .hero-features{
     display:flex;
     flex-wrap:wrap;
-    gap:12px;
-    margin-bottom:30px;
+    gap:10px;
+    margin:25px 0;
 }
 
 .hero-features span{
-    background:white;
+    background:#ffffff;
     padding:10px 16px;
     border-radius:30px;
     font-size:14px;
-    font-weight:600;
+    font-weight:700;
     color:#1E4FAF;
-    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    border:1px solid #dce8ff;
 }
