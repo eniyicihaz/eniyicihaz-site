@@ -682,3 +682,48 @@ font-size:18px;
     }
 
 }
+
+.gallery{
+    padding:100px 0;
+    background:#f7fbff;
+}
+
+.gallery h2{
+    text-align:center;
+    font-size:42px;
+    color:#0f1a3d;
+    margin-bottom:15px;
+}
+
+.gallery-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.03);
+}
+
+@media(max-width:900px){
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+}
