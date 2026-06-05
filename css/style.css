@@ -246,10 +246,11 @@ font-size:18px;
 }
 
 .position{
-    margin-top:12px;
-    font-size:15px;
-    font-weight:600;
+    margin-top:16px;
+    font-size:17px;
+    font-weight:700;
     color:#1E4FAF;
+    line-height:1.5;
 }
 
 .position2{
