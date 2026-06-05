@@ -491,3 +491,34 @@ font-size:18px;
     }
 
 }
+
+.sgk{
+    padding:100px 0;
+    background:white;
+}
+
+.sgk-box{
+    background:linear-gradient(135deg,#1E4FAF,#27A8F2);
+    color:white;
+    padding:60px;
+    border-radius:25px;
+    text-align:center;
+}
+
+.sgk-box h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.sgk-box p{
+    max-width:800px;
+    margin:0 auto 30px;
+    line-height:1.8;
+    font-size:18px;
+    color:white;
+}
+
+.sgk-box .btn-primary{
+    background:white;
+    color:#1E4FAF;
+}
