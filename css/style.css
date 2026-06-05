@@ -1,1 +1,139 @@
-/* Avrasya İşitme */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#F7F9FC;
+color:#222;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+.header{
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.header .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#1E4FAF;
+}
+
+.logo span{
+color:#27A8F2;
+}
+
+nav{
+display:flex;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+.call-btn{
+background:#1E4FAF;
+color:white;
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(
+135deg,
+#1E4FAF,
+#27A8F2
+);
+color:white;
+padding:30px;
+}
+
+.hero-content{
+max-width:850px;
+}
+
+.hero h1{
+font-size:58px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.7;
+margin-bottom:35px;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn-primary{
+background:white;
+color:#1E4FAF;
+padding:15px 30px;
+border-radius:8px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.btn-whatsapp{
+background:#25D366;
+color:white;
+padding:15px 30px;
+border-radius:8px;
+font-weight:bold;
+text-decoration:none;
+}
+
+@media(max-width:900px){
+
+.header .container{
+flex-direction:column;
+gap:15px;
+}
+
+nav{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
