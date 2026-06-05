@@ -314,3 +314,59 @@ font-size:18px;
     }
 
 }
+
+.brands{
+    padding:100px 0;
+    background:#f7fbff;
+}
+
+.brands h2{
+    text-align:center;
+    font-size:42px;
+    color:#0f1a3d;
+    margin-bottom:15px;
+}
+
+.brands-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+}
+
+.brands-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.brand-card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.06);
+    transition:.3s;
+}
+
+.brand-card:hover{
+    transform:translateY(-5px);
+}
+
+.brand-card h3{
+    color:#1E4FAF;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.brand-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+@media(max-width:900px){
+
+    .brands-grid{
+        grid-template-columns:1fr;
+    }
+
+}
