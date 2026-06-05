@@ -224,3 +224,23 @@ font-size:18px;
     }
 
 }
+
+.title{
+    font-size:18px;
+    font-weight:600;
+    color:#1E4FAF;
+    margin-bottom:12px;
+}
+
+.experience{
+    font-size:16px;
+    font-weight:700;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.desc{
+    font-size:14px;
+    line-height:1.6;
+    color:#666;
+}
