@@ -100,8 +100,8 @@ flex-wrap:wrap;
 }
 
 .btn-primary{
-background:white;
-color:#1E4FAF;
+background:#1E4FAF;
+color:white;
 padding:15px 30px;
 border-radius:8px;
 font-weight:bold;
