@@ -252,3 +252,20 @@ font-size:18px;
     color:#1E4FAF;
     line-height:1.5;
 }
+
+.hero-features{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:30px;
+}
+
+.hero-features span{
+    background:white;
+    padding:10px 16px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    color:#1E4FAF;
+    box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
