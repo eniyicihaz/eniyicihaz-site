@@ -269,3 +269,47 @@ font-size:18px;
     color:#1E4FAF;
     border:1px solid #dce8ff;
 }
+
+.why-us{
+    background:white;
+    padding:90px 0;
+}
+
+.why-us h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:50px;
+    color:#0f1a3d;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.why-box{
+    background:#f7fbff;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.why-box h3{
+    margin-bottom:15px;
+    color:#1E4FAF;
+}
+
+.why-box p{
+    color:#666;
+    line-height:1.6;
+}
+
+@media(max-width:900px){
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+}
