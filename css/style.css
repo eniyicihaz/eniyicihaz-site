@@ -1699,11 +1699,16 @@ grid-template-columns:1fr;
 .sgk-basvuru{
 padding:80px 20px;
 background:#fff;
+margin-top:20px;
 }
 
 .sgk-basvuru .container{
 max-width:900px;
 margin:auto;
+background:#fff;
+padding:50px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
 }
 
 .sgk-basvuru h2{
