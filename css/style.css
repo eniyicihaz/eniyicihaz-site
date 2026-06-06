@@ -808,3 +808,12 @@ font-size:18px;
     text-decoration:underline;
 }
 
+.footer a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.footer a:hover{
+    text-decoration:underline;
+}
