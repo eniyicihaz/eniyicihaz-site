@@ -32,16 +32,21 @@ padding:20px 0;
 }
 
 .logo{
-font-size:30px;
-font-weight:700;
-color:#1E4FAF;
+display:block;
+max-width:320px;
 text-decoration:none;
-    max-width:220px;
 }
 
 .logo:hover{
 opacity:.9;
 }
+
+.logo img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
 .logo span{
 color:#27A8F2;
 }
@@ -942,11 +947,8 @@ img{
 @media (max-width:768px){
 
 .logo{
-    display:block;
-    text-align:center;
-    font-size:42px;
-    line-height:1.1;
-    margin:10px auto;
+    max-width:260px;
+    margin:auto;
 }
 
 }
