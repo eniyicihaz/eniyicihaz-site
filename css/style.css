@@ -1139,47 +1139,63 @@ img{
 
 /* Güven Özellikleri */
 
-.trust-features {
-    padding: 40px 0;
-    background: #f8fbff;
+.trust-features{
+    padding:60px 0;
+    background:#f8fbff;
 }
 
-.trust-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+.trust-features h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0b2454;
+    font-size:36px;
 }
 
-.trust-item {
-    background: #fff;
-    padding: 20px 15px;
-    border-radius: 12px;
-    text-align: center;
-    font-weight: 600;
-    color: #1f2937;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    transition: all 0.3s ease;
+.trust-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
 }
 
-.trust-item:hover {
-    transform: translateY(-5px);
+.trust-item{
+    background:#fff;
+    border-radius:18px;
+    padding:30px 20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
 }
 
-.trust-icon {
-    display: block;
-    font-size: 28px;
-    margin-bottom: 10px;
+.trust-item:hover{
+    transform:translateY(-8px);
 }
 
-@media (max-width: 992px) {
-    .trust-grid {
-        grid-template-columns: repeat(2, 1fr);
+.trust-icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.trust-item h3{
+    font-size:18px;
+    margin-bottom:10px;
+    color:#0b2454;
+}
+
+.trust-item p{
+    font-size:14px;
+    color:#666;
+    line-height:1.5;
+}
+
+@media(max-width:992px){
+    .trust-grid{
+        grid-template-columns:repeat(2,1fr);
     }
 }
 
-@media (max-width: 576px) {
-    .trust-grid {
-        grid-template-columns: 1fr;
+@media(max-width:576px){
+    .trust-grid{
+        grid-template-columns:1fr;
     }
 }
 
