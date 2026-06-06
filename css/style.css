@@ -451,6 +451,7 @@ text-decoration:none;
 .sgk-box .btn-primary{
     background:white;
     color:#1E4FAF;
+    display:inline-block;
 }
 
 .locations{
