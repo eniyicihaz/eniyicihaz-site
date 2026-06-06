@@ -36,6 +36,7 @@ font-size:30px;
 font-weight:700;
 color:#1E4FAF;
 text-decoration:none;
+    max-width:220px;
 }
 
 .logo:hover{
@@ -965,6 +966,10 @@ img{
     max-width:100%;
 }
 
+.mobile-actions{
+    display:none;
+}
+
 @media (max-width:768px){
 
     .navbar{
@@ -983,14 +988,6 @@ img{
         font-size:18px;
     }
 
-    .logo{
-        max-width:220px;
-    }
-
-}
-
-.mobile-actions{
-    display:none;
 }
 
 @media (max-width:768px){
@@ -1003,22 +1000,23 @@ img{
         display:none;
     }
 
-    .mobile-actions{
-        display:flex;
-        flex-direction:column;
-        gap:12px;
-        padding:15px;
-        background:#fff;
-    }
+.mobile-actions{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    padding:15px;
+    margin-bottom:-30px;
+    background:#fff;
+}
 
     .mobile-actions a{
         display:block;
         text-align:center;
         text-decoration:none;
         color:white;
-        font-size:18px;
+        font-size:16px;
         font-weight:700;
-        padding:14px;
+        padding:12px;
         border-radius:12px;
     }
 
@@ -1035,3 +1033,16 @@ img{
     }
 
 }
+
+@media (max-width:768px){
+
+.logo{
+    display:block;
+    text-align:center;
+    font-size:42px;
+    line-height:1.1;
+    margin:10px auto;
+}
+
+}
+    
