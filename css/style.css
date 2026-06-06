@@ -1222,3 +1222,83 @@ img{
     color:inherit;
 }
 
+/* MARKALAR SAYFASI */
+
+.brands-hero{
+    background:linear-gradient(135deg,#0b2a66,#27A8F2);
+    color:#fff;
+    padding:100px 20px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.brands-hero::before{
+    content:'';
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:rgba(255,255,255,.08);
+    border-radius:50%;
+    top:-200px;
+    right:-150px;
+}
+
+.brands-hero::after{
+    content:'';
+    position:absolute;
+    width:350px;
+    height:350px;
+    background:rgba(255,255,255,.05);
+    border-radius:50%;
+    bottom:-150px;
+    left:-100px;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:12px 20px;
+    border-radius:999px;
+    margin-bottom:25px;
+    font-weight:600;
+    backdrop-filter:blur(8px);
+}
+
+.brands-hero h1{
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.brands-hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:35px;
+}
+
+.hero-buttons a{
+    margin:8px;
+}
+
+@media(max-width:768px){
+
+    .brands-hero{
+        padding:70px 20px;
+    }
+
+    .brands-hero h1{
+        font-size:36px;
+    }
+
+    .brands-hero p{
+        font-size:17px;
+    }
+
+}
+
