@@ -1828,11 +1828,18 @@ margin-bottom:25px;
 .footer-contact a{
 color:#fff;
 text-decoration:none;
-font-weight:600;
+font-weight:700;
+font-size:22px;
+transition:.3s;
+}
+
+.footer-contact a:hover{
+color:#27A8F2;
 }
 
 .footer-contact i{
-margin-right:8px;
+margin-right:10px;
+font-size:24px;
 }
 
 .footer-copy{
@@ -1845,7 +1852,7 @@ opacity:.9;
 
 .footer-contact{
 flex-direction:column;
-gap:15px;
+gap:20px;
 }
 
 .footer-links{
