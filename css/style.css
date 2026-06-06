@@ -1116,10 +1116,20 @@ img{
     }
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
+
     .trust-grid{
         grid-template-columns:1fr;
     }
+
+    .trust-item{
+        padding:20px;
+    }
+
+    .trust-features h2{
+        font-size:28px;
+    }
+
 }
 
 @media (max-width:768px){
