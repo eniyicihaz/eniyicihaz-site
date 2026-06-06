@@ -46,5 +46,59 @@
 
 </section>
 
+<section class="brands-showcase">
+
+    <div class="container">
+
+        <div class="brands-grid">
+
+            <a href="oticon-isitme-cihazi.html" class="brand-card">
+                <img src="images/oticon-logo.webp" alt="Oticon">
+                <h3>Oticon</h3>
+                <p>Danimarka teknolojisi, yapay zeka destekli işitme çözümleri ve üstün konuşma anlaşılırlığı.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+            <a href="phonak-isitme-cihazi.html" class="brand-card">
+                <img src="images/phonak-logo.webp" alt="Phonak">
+                <h3>Phonak</h3>
+                <p>Bluetooth bağlantı teknolojileri ve güçlü işitme kayıplarına özel çözümler.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+            <a href="signia-isitme-cihazi.html" class="brand-card">
+                <img src="images/signia-logo.webp" alt="Signia">
+                <h3>Signia</h3>
+                <p>Alman mühendisliği, modern tasarım ve yapay zeka destekli işitme deneyimi.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+            <a href="widex-isitme-cihazi.html" class="brand-card">
+                <img src="images/widex-logo.webp" alt="Widex">
+                <h3>Widex</h3>
+                <p>Doğal ses kalitesi ve müzik performansıyla öne çıkan premium marka.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+            <a href="resound-isitme-cihazi.html" class="brand-card">
+                <img src="images/resound-logo.webp" alt="ReSound">
+                <h3>ReSound</h3>
+                <p>Kablosuz bağlantı çözümleri ve akıllı telefon entegrasyonu konusunda öncü marka.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+            <a href="nuear-isitme-cihazi.html" class="brand-card">
+                <img src="images/nuear-logo.webp" alt="NuEar">
+                <h3>NuEar</h3>
+                <p>Ekonomik ve güvenilir işitme cihazı seçenekleriyle günlük kullanım kolaylığı.</p>
+                <span>Markayı İncele →</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
 </body>
 </html>
