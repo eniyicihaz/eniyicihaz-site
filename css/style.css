@@ -1652,3 +1652,47 @@ color:#555;
 margin-bottom:20px;
 text-align:center;
 }
+
+.sgk-eligible-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+margin-top:50px;
+}
+
+.sgk-eligible-card{
+background:#f7fbff;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 8px 25px rgba(0,0,0,.05);
+transition:.3s;
+}
+
+.sgk-eligible-card:hover{
+transform:translateY(-8px);
+}
+
+.sgk-eligible-card h3{
+margin:15px 0 10px;
+color:#0F1D40;
+}
+
+.sgk-eligible-card p{
+font-size:15px;
+line-height:1.7;
+margin:0;
+}
+
+@media(max-width:991px){
+.sgk-eligible-grid{
+grid-template-columns:1fr 1fr;
+}
+}
+
+@media(max-width:768px){
+.sgk-eligible-grid{
+grid-template-columns:1fr;
+}
+}
+
