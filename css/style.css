@@ -989,3 +989,49 @@ img{
 
 }
 
+.mobile-actions{
+    display:none;
+}
+
+@media (max-width:768px){
+
+    nav{
+        display:none;
+    }
+
+    .header-buttons{
+        display:none;
+    }
+
+    .mobile-actions{
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+        padding:15px;
+        background:#fff;
+    }
+
+    .mobile-actions a{
+        display:block;
+        text-align:center;
+        text-decoration:none;
+        color:white;
+        font-size:18px;
+        font-weight:700;
+        padding:14px;
+        border-radius:12px;
+    }
+
+    .mobile-call{
+        background:#1f56c2;
+    }
+
+    .mobile-whatsapp{
+        background:#25D366;
+    }
+
+    .mobile-map{
+        background:#ff5b5b;
+    }
+
+}
