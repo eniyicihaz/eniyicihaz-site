@@ -160,19 +160,6 @@ text-decoration:none;
     margin-bottom:10px;
 }
 
-@media(max-width:768px){
-
-    .hero .container{
-        flex-direction:column;
-        text-align:center;
-    }
-
-    .hero h1{
-        font-size:36px;
-    }
-
-}
-
 .title{
     font-size:18px;
     font-weight:600;
@@ -765,7 +752,7 @@ text-decoration:none;
 
 .seo-content{
     background:white;
-    padding:80px 0;
+    padding:70px 0;
 }
 
 .seo-content h2{
@@ -800,10 +787,6 @@ text-decoration:none;
 
 .footer-links a:hover{
     color:#3ba8ff;
-}
-
-.seo-content{
-    padding:70px 0;
 }
 
 .seo-content:nth-child(even){
