@@ -965,3 +965,27 @@ img{
     max-width:100%;
 }
 
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .nav-links a{
+        font-size:18px;
+    }
+
+    .logo{
+        max-width:220px;
+    }
+
+}
+
