@@ -603,6 +603,14 @@ font-size:18px;
     border-radius:20px;
     text-align:center;
     box-shadow:0 8px 25px rgba(0,0,0,.05);
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    min-height:320px;
+}
+
+.contact-card a{
+    margin-top:auto;
 }
 
 .contact-card h3{
