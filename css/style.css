@@ -330,6 +330,7 @@ text-decoration:none;
     border-radius:20px;
     text-align:center;
     box-shadow:0 8px 25px rgba(0,0,0,.05);
+    transition:.3s;
 }
 
 .service-card h3{
@@ -340,6 +341,16 @@ text-decoration:none;
 .service-card p{
     color:#666;
     line-height:1.7;
+
+}
+
+.service-card:hover{
+    transform:translateY(-5px);
+}
+
+.service-icon{
+    font-size:48px;
+    margin-bottom:15px;
 }
 
 .patients{
