@@ -1484,3 +1484,30 @@ color:#0A2A66;
 .faq-card p{
 line-height:1.8;
 }
+
+.about-section{
+padding:80px 0 40px;
+}
+
+.about-box{
+background:#fff;
+padding:50px;
+border-radius:24px;
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+max-width:1000px;
+margin:auto;
+}
+
+.about-box h2{
+font-size:38px;
+margin-bottom:25px;
+color:#0A2A66;
+}
+
+.about-box p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:20px;
+color:#444;
+}
+
