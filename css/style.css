@@ -55,10 +55,12 @@ font-weight:600;
 .call-btn{
 background:#1E4FAF;
 color:white;
-padding:12px 22px;
-border-radius:8px;
+padding:14px 26px;
+border-radius:12px;
 text-decoration:none;
-font-weight:bold;
+font-weight:700;
+transition:.3s;
+box-shadow:0 8px 20px rgba(30,79,175,.20);
 }
 
 .hero{
@@ -734,7 +736,7 @@ font-size:18px;
 
 .hero-photo img{
     width:100%;
-    max-width:650px;
+    max-width:750px;
     border-radius:24px;
     box-shadow:0 20px 50px rgba(0,0,0,.15);
     display:block;
