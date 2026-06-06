@@ -13,7 +13,38 @@
 </head>
 <body>
 
-<h1>En İyi İşitme Cihazı Markaları</h1>
+<section class="brands-hero">
+
+    <div class="container">
+
+        <span class="hero-badge">
+            Dünya Markaları • SGK Desteği • Uzman Danışmanlık
+        </span>
+
+        <h1>
+            En İyi İşitme Cihazı Markaları
+        </h1>
+
+        <p>
+            Oticon, Phonak, Signia, Widex, ReSound ve NuEar işitme cihazı markalarını inceleyin.
+            İşitme seviyenize ve yaşam tarzınıza en uygun cihazı birlikte belirleyelim.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="tel:+905337733199" class="btn-primary">
+                Hemen Ara
+            </a>
+
+            <a href="https://wa.me/905337733199" class="btn-whatsapp">
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
 </body>
 </html>
