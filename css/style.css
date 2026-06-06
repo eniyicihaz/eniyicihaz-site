@@ -924,8 +924,10 @@ body{
 
 @media (max-width:768px){
 
-    .seo-row{
+    .seo-row,
+    .seo-row.reverse{
         grid-template-columns:1fr;
+        gap:25px;
     }
 
 }
