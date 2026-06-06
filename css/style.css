@@ -696,13 +696,17 @@ text-decoration:none;
 
 .hero-buttons{
     gap:15px !important;
+    display:flex;
+    margin-top:20px;
+    justify-content:center;
 }
 
 .btn-primary,
 .btn-whatsapp{
     transition: all .3s ease;
-    min-width:130px;
+    min-width:150px;
     text-align:center;
+    display:inline-block;
 }
 
 .btn-primary:hover{
