@@ -894,7 +894,10 @@ font-size:18px;
 }
 
 .seo-row.reverse{
+    display:grid;
     grid-template-columns:450px 1fr;
+    gap:50px;
+    align-items:center;
 }
 
 .seo-image img{
