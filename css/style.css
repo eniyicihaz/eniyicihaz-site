@@ -1450,3 +1450,37 @@ font-size:18px;
 line-height:1.8;
 color:#fff;
 }
+
+.faq-section{
+padding:100px 0;
+}
+
+.faq-section h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+color:#0A2A66;
+}
+
+.faq-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.faq-card{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.faq-card h3{
+font-size:22px;
+margin-bottom:15px;
+color:#0A2A66;
+}
+
+.faq-card p{
+line-height:1.8;
+}
