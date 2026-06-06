@@ -1059,14 +1059,14 @@ img{
 }
 
 .floating-buttons a{
-    width:60px;
-    height:60px;
+    width:65px;
+    height:65px;
     border-radius:50%;
     display:flex;
     align-items:center;
     justify-content:center;
     text-decoration:none;
-    font-size:30px;
+    font-size:32px;
     color:white;
     box-shadow:0 5px 20px rgba(0,0,0,.20);
     transition:.3s;
