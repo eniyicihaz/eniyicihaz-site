@@ -861,3 +861,28 @@ font-size:18px;
     color:#3ba8ff;
 }
 
+.seo-content{
+    padding:70px 0;
+}
+
+.seo-content:nth-child(even){
+    background:#f7f9fc;
+}
+
+.seo-content .container{
+    max-width:1100px;
+}
+
+.seo-content h2{
+    color:#0f1a3d;
+    margin-bottom:25px;
+    font-size:36px;
+}
+
+.seo-content p{
+    font-size:18px;
+    line-height:1.9;
+    color:#444;
+    margin-bottom:20px;
+}
+
