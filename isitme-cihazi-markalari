@@ -100,5 +100,54 @@
 
 </section>
 
+<section class="brand-comparison">
+
+    <div class="container">
+
+        <h2>Markaları Karşılaştırın</h2>
+
+        <p class="comparison-subtitle">
+            Her işitme cihazı markasının farklı güçlü yönleri vardır.
+            İşitme seviyenize ve yaşam tarzınıza göre en uygun markayı birlikte belirliyoruz.
+        </p>
+
+        <div class="comparison-grid">
+
+            <div class="comparison-box">
+                <h3>Oticon</h3>
+                <p>Beyin dostu teknoloji</p>
+            </div>
+
+            <div class="comparison-box">
+                <h3>Phonak</h3>
+                <p>Bluetooth bağlantı lideri</p>
+            </div>
+
+            <div class="comparison-box">
+                <h3>Signia</h3>
+                <p>Şık tasarım ve yapay zeka</p>
+            </div>
+
+            <div class="comparison-box">
+                <h3>Widex</h3>
+                <p>Doğal ses deneyimi</p>
+            </div>
+
+            <div class="comparison-box">
+                <h3>ReSound</h3>
+                <p>Akıllı telefon entegrasyonu</p>
+            </div>
+
+            <div class="comparison-box">
+                <h3>NuEar</h3>
+                <p>Ekonomik ve güvenilir çözümler</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 </body>
 </html>
