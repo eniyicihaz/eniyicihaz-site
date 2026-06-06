@@ -1199,3 +1199,31 @@ img{
     }
 }
 
+@media (max-width:768px){
+
+    .sgk-box{
+        padding:35px 20px;
+    }
+
+    .sgk-box h2{
+        font-size:32px;
+        line-height:1.2;
+    }
+
+    .sgk-box p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+    .sgk-box .btn-primary{
+        display:block;
+        width:100%;
+        max-width:320px;
+        margin:0 auto;
+        padding:16px 20px;
+        line-height:1.4;
+        white-space:normal;
+        text-align:center;
+    }
+
+}
