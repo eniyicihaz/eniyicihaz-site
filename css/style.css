@@ -1066,7 +1066,8 @@ img{
     align-items:center;
     justify-content:center;
     text-decoration:none;
-    font-size:28px;
+    font-size:30px;
+    color:white;
     box-shadow:0 5px 20px rgba(0,0,0,.20);
     transition:.3s;
 }
