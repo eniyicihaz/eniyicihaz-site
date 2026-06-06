@@ -886,3 +886,20 @@ font-size:18px;
     margin-bottom:20px;
 }
 
+.seo-row{
+    display:grid;
+    grid-template-columns:1fr 450px;
+    gap:50px;
+    align-items:center;
+}
+
+.seo-row.reverse{
+    grid-template-columns:450px 1fr;
+}
+
+.seo-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.10);
+}
+
