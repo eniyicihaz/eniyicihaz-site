@@ -747,3 +747,20 @@ font-size:18px;
     }
 
 }
+
+.btn-primary,
+.btn-whatsapp{
+    transition: all .3s ease;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(30,79,175,.30);
+}
+
+.btn-whatsapp:hover{
+    background:#1faa52;
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(37,211,102,.30);
+}
