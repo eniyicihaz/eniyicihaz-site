@@ -1046,3 +1046,33 @@ img{
 
 }
     
+.floating-buttons{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    z-index:9999;
+}
+
+.floating-buttons a{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:28px;
+    box-shadow:0 5px 20px rgba(0,0,0,.20);
+}
+
+.floating-whatsapp{
+    background:#25D366;
+}
+
+.floating-phone{
+    background:#1E4FAF;
+}
+
