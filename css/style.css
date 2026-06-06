@@ -1046,6 +1046,8 @@ img{
 
 }
     
+/* SABİT WHATSAPP VE TELEFON */
+
 .floating-buttons{
     position:fixed;
     right:20px;
@@ -1066,6 +1068,11 @@ img{
     text-decoration:none;
     font-size:28px;
     box-shadow:0 5px 20px rgba(0,0,0,.20);
+    transition:.3s;
+}
+
+.floating-buttons a:hover{
+    transform:scale(1.08);
 }
 
 .floating-whatsapp{
@@ -1074,5 +1081,20 @@ img{
 
 .floating-phone{
     background:#1E4FAF;
+}
+
+@media(max-width:768px){
+
+    .floating-buttons{
+        right:15px;
+        bottom:15px;
+    }
+
+    .floating-buttons a{
+        width:58px;
+        height:58px;
+        font-size:26px;
+    }
+
 }
 
