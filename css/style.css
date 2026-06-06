@@ -1101,20 +1101,22 @@ img{
 
 .brand-logos{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-    margin-top:40px;
+    grid-template-columns:repeat(3,220px);
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
 }
 
 .brand-logos img{
     width:100%;
-    height:120px;
+    height:100px;
     object-fit:contain;
+
     background:#fff;
-    padding:25px;
-    border-radius:16px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-    transition:.3s;
+    padding:30px;
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
 }
 
 .brand-logos img:hover{
