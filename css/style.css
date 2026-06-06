@@ -694,9 +694,15 @@ text-decoration:none;
 
 }
 
+.hero-buttons{
+    gap:15px !important;
+}
+
 .btn-primary,
 .btn-whatsapp{
     transition: all .3s ease;
+    min-width:130px;
+    text-align:center;
 }
 
 .btn-primary:hover{
