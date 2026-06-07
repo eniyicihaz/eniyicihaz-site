@@ -1872,3 +1872,49 @@ transition:.3s;
 color:#27A8F2;
 }
 
+.sgk-brands{
+padding:80px 20px;
+text-align:center;
+}
+
+.sgk-brands .container{
+max-width:1000px;
+margin:auto;
+}
+
+.sgk-brands h2{
+font-size:42px;
+color:#0A2D73;
+margin-bottom:25px;
+}
+
+.sgk-brands p{
+font-size:18px;
+line-height:1.9;
+color:#555;
+margin-bottom:20px;
+}
+
+.brand-links{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:35px;
+}
+
+.brand-links a{
+background:#f4f8ff;
+padding:12px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+color:#0A2D73;
+transition:.3s;
+}
+
+.brand-links a:hover{
+background:#27A8F2;
+color:#fff;
+}
+
