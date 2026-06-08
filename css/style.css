@@ -711,6 +711,10 @@ margin-bottom:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.1);
 }
 
+.contact-map{
+padding-top:40px;
+}
+
 .contact-map h2{
 grid-column:1 / -1;
 text-align:center;
