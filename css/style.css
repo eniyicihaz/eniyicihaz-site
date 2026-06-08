@@ -2193,6 +2193,7 @@ grid-template-columns:2fr 1fr;
 gap:40px;
 align-items:center;
 }
+
 .map-feature-list{
 display:flex;
 flex-direction:column;
