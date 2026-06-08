@@ -2191,7 +2191,7 @@ transition:.3s;
 display:grid;
 grid-template-columns:2fr 1fr;
 gap:40px;
-align-items:center;
+align-items:start;
 }
 
 .map-feature-list{
@@ -2269,9 +2269,10 @@ transform:translateY(-2px);
 }
 
 .map-subtitle{
+grid-column:1 / -1;
 text-align:center;
 max-width:700px;
-margin:0 auto 30px;
+margin:0 auto 15px;
 font-size:17px;
 line-height:1.7;
 color:#666;
@@ -2296,5 +2297,9 @@ display:block;
 
 .contact-map{
 padding-bottom:60px;
+}
+
+.map-features h3{
+margin-top:0;
 }
 
