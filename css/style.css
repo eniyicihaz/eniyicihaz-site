@@ -2151,3 +2151,26 @@ padding:40px 20px;
 
 }
 
+.contact-page-card i{
+font-size:28px;
+color:#0A2D73;
+margin-bottom:15px;
+}
+
+.fa-whatsapp{
+color:#25D366 !important;
+}
+
+.fa-location-dot{
+color:#27A8F2 !important;
+}
+
+.fa-phone{
+color:#0A2D73 !important;
+}
+
+.contact-page-card:hover{
+transform:translateY(-6px);
+transition:.3s;
+}
+
