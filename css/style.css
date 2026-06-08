@@ -2180,3 +2180,30 @@ transform:translateY(-6px);
 transition:.3s;
 }
 
+.contact-map .container{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.contact-map h2{
+grid-column:1 / -1;
+text-align:center;
+margin-bottom:20px;
+}
+
+.map-feature-list{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.map-feature-item{
+background:#fff;
+padding:18px;
+border-radius:16px;
+box-shadow:0 8px 25px rgba(0,0,0,.05);
+font-weight:600;
+}
+
