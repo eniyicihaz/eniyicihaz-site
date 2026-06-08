@@ -276,13 +276,6 @@ border-radius:20px;
     line-height:1.6;
 }
 
-@media(max-width:900px){
-
-    .brands-grid{
-        grid-template-columns:1fr;
-    }
-}
-
 .services{
     padding:100px 0;
     background:white;
@@ -1676,10 +1669,6 @@ color:#555;
 }
 
 @media(max-width:768px){
-
-.why-grid{
-grid-template-columns:1fr;
-}
 
 .why-avrasya h2{
 font-size:34px;
