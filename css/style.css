@@ -285,8 +285,10 @@ border-radius:20px;
 
 .services-grid{
 display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:25px;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+max-width:1400px;
+margin:0 auto;
 }
 
 .service-card{
@@ -296,6 +298,11 @@ gap:25px;
     text-align:center;
     box-shadow:0 8px 25px rgba(0,0,0,.05);
     transition:.3s;
+
+    display:flex;
+flex-direction:column;
+justify-content:flex-start;
+height:100%;
 }
 
 .service-card h3{
