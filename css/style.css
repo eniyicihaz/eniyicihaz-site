@@ -1919,3 +1919,25 @@ background:#27A8F2;
 color:#fff;
 }
 
+@media (max-width:768px){
+
+.sgk-basvuru{
+padding:40px 10px;
+}
+
+.sgk-basvuru .container{
+padding:25px;
+}
+
+.sgk-basvuru h2{
+font-size:32px;
+line-height:1.2;
+}
+
+.sgk-basvuru p{
+font-size:17px;
+line-height:1.8;
+}
+
+}
+
