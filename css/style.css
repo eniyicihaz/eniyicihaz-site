@@ -550,15 +550,11 @@ gap:25px;
 }
 
 .contact-card{
-    background:#f7fbff;
+    background:#fff;
     padding:35px;
     border-radius:20px;
     text-align:center;
-    box-shadow:0 8px 25px rgba(0,0,0,.05);
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
-    min-height:260px;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
 }
 
 .contact-card a{
@@ -1901,7 +1897,7 @@ text-align:center;
 }
 
 .contact-page{
-padding:100px 20px 60px;
+padding:160px 20px 80px;
 text-align:center;
 }
 
@@ -1909,6 +1905,7 @@ text-align:center;
 font-size:52px;
 color:#0A2D73;
 margin-bottom:25px;
+text-align:center;
 }
 
 .contact-page p{
@@ -1917,6 +1914,12 @@ margin:0 auto 30px;
 font-size:20px;
 line-height:1.8;
 color:#444;
+}
+
+.contact-page .container{
+max-width:1100px;
+margin:auto;
+text-align:center;
 }
 
 .contact-info{
@@ -1935,14 +1938,6 @@ margin-bottom:50px;
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:25px;
-}
-
-.contact-card{
-background:#fff;
-padding:35px;
-border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,.05);
-text-align:center;
 }
 
 .contact-card h3{
