@@ -1893,8 +1893,7 @@ color:#0A2D73;
 font-size:18px;
 line-height:1.7;
 color:#555;
-flex:1;
-min-height:340px;
+margin-bottom:25px;
 }
     
 @media (max-width:768px){
