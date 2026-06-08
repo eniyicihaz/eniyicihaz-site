@@ -1898,6 +1898,7 @@ font-size:18px;
 line-height:1.7;
 color:#555;
 margin-bottom:25px;
+margin-top:20px;
 }
     
 @media (max-width:768px){
@@ -1993,9 +1994,9 @@ text-align:center;
 box-shadow:0 10px 25px rgba(10,45,115,.08);
 display:flex;
 flex-direction:column;
-justify-content:space-between;
 align-items:center;
 }
+
 .contact-card a{
 margin-top:auto;
 }
