@@ -60,6 +60,20 @@ nav a{
 text-decoration:none;
 color:#333;
 font-weight:600;
+transition:.3s;
+}
+
+nav a.active{
+color:#27A8F2;
+font-weight:700;
+}
+
+nav a.active::after{
+width:100%;
+}
+
+nav a:hover{
+color:#27A8F2;
 }
 
 .call-btn{
@@ -2316,13 +2330,5 @@ margin:0 auto;
 font-size:17px;
 line-height:1.9;
 color:#555;
-}
-
-nav a:hover{
-color:#27A8F2;
-}
-
-nav a{
-transition:.3s;
 }
 
