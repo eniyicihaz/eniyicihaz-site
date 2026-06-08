@@ -711,6 +711,12 @@ margin-bottom:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.1);
 }
 
+.contact-map h2{
+text-align:center;
+margin-bottom:30px;
+color:#0A2D73;
+}
+
 .review-link{
     color:#2453b3;
     font-weight:600;
