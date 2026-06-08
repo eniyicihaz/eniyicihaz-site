@@ -2005,3 +2005,39 @@ font-size:34px;
 
 }
 
+.contact-cta{
+background:linear-gradient(135deg,#0A2A66,#27A8F2);
+padding:80px 30px;
+text-align:center;
+color:#fff;
+border-radius:30px;
+margin:60px auto;
+}
+
+.contact-cta h2{
+font-size:42px;
+margin-bottom:20px;
+color:#fff;
+}
+
+.contact-cta p{
+max-width:800px;
+margin:0 auto 35px;
+font-size:18px;
+line-height:1.8;
+color:#fff;
+}
+
+@media(max-width:768px){
+
+.contact-cta{
+padding:50px 20px;
+}
+
+.contact-cta h2{
+font-size:32px;
+line-height:1.2;
+}
+
+}
+
