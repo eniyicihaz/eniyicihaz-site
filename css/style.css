@@ -2304,3 +2304,17 @@ padding-bottom:40px;
 margin-top:0;
 }
 
+.contact-seo{
+padding:40px 20px;
+background:#f7fbff;
+text-align:center;
+}
+
+.contact-seo p{
+max-width:1000px;
+margin:0 auto;
+font-size:17px;
+line-height:1.9;
+color:#555;
+}
+
