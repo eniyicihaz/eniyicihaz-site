@@ -595,10 +595,6 @@ gap:25px;
     text-align:center;
 }
 
-.footer-links{
-    margin:15px 0;
-}
-
 .footer h3{
     margin-bottom:20px;
     font-size:28px;
@@ -805,14 +801,6 @@ gap:25px;
     line-height:1.9;
     color:#444;
     font-size:18px;
-}
-
-.footer-links{
-    display:flex;
-    justify-content:center;
-    gap:25px;
-    margin:25px 0;
-    flex-wrap:wrap;
 }
 
 .footer-links a{
@@ -1800,14 +1788,6 @@ line-height:1.8;
 color:#e8e8e8;
 }
 
-.footer-links{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:12px;
-margin-bottom:30px;
-}
-
 .footer-contact{
 display:flex;
 justify-content:center;
@@ -1845,12 +1825,6 @@ opacity:.9;
 flex-direction:column;
 gap:20px;
 }
-
-.footer-links{
-flex-direction:column;
-gap:10px;
-}
-
 }
 
 .footer-city-links{
@@ -1966,5 +1940,13 @@ font-size:17px;
 line-height:1.8;
 }
 
+}
+
+.footer-links{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin:25px 0;
 }
 
