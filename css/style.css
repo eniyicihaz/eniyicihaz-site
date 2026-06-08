@@ -508,13 +508,12 @@ gap:25px;
     margin-bottom:50px;
 }
 
-.contact-page-card
-    background:#fff;
-    padding:30px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.05);
-    text-align:center;
+.contact-page-card{
+background:#fff;
+padding:30px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
 }
 
 .contact-card a{
@@ -1943,21 +1942,22 @@ line-height:1.2;
 }
 }
 
+.contact-page-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
 @media(max-width:768px){
 
-.contact-page-grid
+.contact-page-grid{
 grid-template-columns:1fr;
 }
 
 .contact-info h2{
 font-size:34px;
 }
-}
 
-.contact-page-grid
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:25px;
 }
 
 .contact-info .contact-card{
