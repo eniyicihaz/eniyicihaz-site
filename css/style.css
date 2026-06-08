@@ -2267,3 +2267,12 @@ transition:.3s;
 transform:translateY(-2px);
 }
 
+.map-subtitle{
+text-align:center;
+max-width:700px;
+margin:0 auto 30px;
+font-size:17px;
+line-height:1.7;
+color:#666;
+}
+
