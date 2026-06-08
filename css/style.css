@@ -1347,6 +1347,28 @@ line-height:1.8;
 color:#fff;
 }
 
+@media(max-width:768px){
+
+.sgk-cta h2,
+.sgk-hero h1{
+    font-size:42px;
+    line-height:1.15;
+}
+
+.sgk-cta p,
+.sgk-hero p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.sgk-cta .btn-primary,
+.sgk-cta .btn-whatsapp{
+    padding:14px 22px;
+    font-size:16px;
+}
+
+}
+
 .faq-section{
 padding:60px 0;
 }
