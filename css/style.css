@@ -2318,3 +2318,11 @@ line-height:1.9;
 color:#555;
 }
 
+nav a:hover{
+color:#27A8F2;
+}
+
+nav a{
+transition:.3s;
+}
+
