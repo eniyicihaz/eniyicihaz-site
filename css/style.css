@@ -1898,29 +1898,29 @@ text-align:center;
 }
 
 .contact-page{
-padding:160px 20px 80px;
+padding:170px 20px 100px;
 text-align:center;
+background:linear-gradient(180deg,#f7fbff,#ffffff);
 }
 
 .contact-page h1{
-font-size:52px;
+font-size:60px;
+font-weight:700;
 color:#0A2D73;
-margin-bottom:25px;
-text-align:center;
+margin-bottom:20px;
 }
 
 .contact-page p{
-max-width:900px;
-margin:0 auto 30px;
-font-size:20px;
+font-size:22px;
 line-height:1.8;
-color:#444;
+color:#555;
+max-width:800px;
+margin:0 auto 40px;
 }
 
 .contact-page .container{
-max-width:1100px;
+max-width:900px;
 margin:auto;
-text-align:center;
 }
 
 .contact-info{
