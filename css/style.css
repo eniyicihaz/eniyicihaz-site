@@ -1950,3 +1950,14 @@ gap:12px;
 margin:25px 0;
 }
 
+@media (max-width:768px){
+
+.footer-links{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+text-align:center;
+}
+
+}
+
