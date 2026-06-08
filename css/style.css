@@ -1872,7 +1872,7 @@ margin:auto;
 }
 
 .contact-info{
-padding:80px 20px;
+padding:60px 20px;
 background:#fff;
 }
 
@@ -1951,9 +1951,12 @@ gap:25px;
 @media(max-width:768px){
 
 .contact-page-grid{
-grid-template-columns:1fr;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+max-width:1100px;
+margin:auto;
 }
-
 .contact-info h2{
 font-size:34px;
 }
@@ -1962,6 +1965,7 @@ font-size:34px;
 
 .contact-info .contact-card{
 background:#f7fbff;
+border:1px solid #e5edf8;
 padding:40px 30px;
 border-radius:24px;
 text-align:center;
