@@ -2019,6 +2019,29 @@ transition:.3s;
     justify-content:center;
 }
 
+@media(max-width:768px){
+
+.service-area-banner{
+    background-attachment:scroll;
+    min-height:350px;
+}
+
+.service-area-overlay{
+    padding:70px 20px;
+}
+
+.service-area-overlay h2{
+    font-size:32px;
+    line-height:1.2;
+    margin-bottom:15px;
+}
+
+.service-area-overlay p{
+    font-size:17px;
+    line-height:1.7;
+}
+}
+
 .service-area-overlay{
     width:100%;
     background:rgba(0,0,0,.45);
