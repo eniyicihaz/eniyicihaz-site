@@ -247,7 +247,6 @@ border-radius:20px;
     .why-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .brands{
@@ -303,7 +302,6 @@ border-radius:20px;
     .brands-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .services{
@@ -387,7 +385,6 @@ gap:25px;
     .patients-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .reviews{
@@ -435,7 +432,6 @@ gap:25px;
     .reviews-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .sgk{
@@ -533,7 +529,6 @@ gap:25px;
     .locations-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .contact-section{
@@ -585,7 +580,6 @@ gap:25px;
     .contact-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .footer{
@@ -694,7 +688,6 @@ gap:25px;
     .gallery-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .hero-photo{
@@ -714,7 +707,6 @@ gap:25px;
     .hero-photo img{
         max-width:100%;
     }
-
 }
 
 .hero-buttons{
@@ -824,7 +816,6 @@ gap:25px;
     .seo-row{
         grid-template-columns:1fr;
     }
-
 }
 
 .seo-row.reverse{
@@ -855,7 +846,6 @@ body{
         grid-template-columns:1fr;
         gap:25px;
     }
-
 }
 
 @media (max-width:768px){
@@ -876,7 +866,6 @@ body{
         font-size:34px;
         line-height:1.2;
     }
-
 }
 
 @media (max-width:768px){
@@ -884,7 +873,6 @@ body{
     .stats-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 img{
@@ -912,7 +900,6 @@ img{
     .nav-links a{
         font-size:18px;
     }
-
 }
 
 @media (max-width:768px){
@@ -956,7 +943,6 @@ img{
     .mobile-map{
         background:#ff5b5b;
     }
-
 }
 
 @media (max-width:768px){
@@ -965,7 +951,6 @@ img{
     max-width:260px;
     margin:auto;
 }
-
 }
     
 /* SABİT WHATSAPP VE TELEFON */
@@ -1018,7 +1003,6 @@ img{
         height:58px;
         font-size:26px;
     }
-
 }
 
 .brand-logos{
@@ -1056,7 +1040,6 @@ img{
         height:90px;
         padding:15px;
     }
-
 }
 
 /* Güven Özellikleri */
@@ -1128,7 +1111,6 @@ img{
     .trust-features h2{
         font-size:28px;
     }
-
 }
 
 @media (max-width:768px){
@@ -1157,7 +1139,6 @@ img{
         white-space:normal;
         text-align:center;
     }
-
 }
 
 .service-areas{
@@ -1192,7 +1173,6 @@ img{
     .areas-grid{
         grid-template-columns:repeat(2,1fr);
     }
-
 }
 
 .location-card{
@@ -1277,7 +1257,6 @@ img{
     .brands-hero p{
         font-size:17px;
     }
-
 }
 
 /* MARKA KARTLARI */
@@ -1337,7 +1316,6 @@ img{
     .brands-grid{
         grid-template-columns:repeat(2,1fr);
     }
-
 }
 
 @media(max-width:768px){
@@ -1345,7 +1323,6 @@ img{
     .brands-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 /* MARKA KARŞILAŞTIRMA */
@@ -1399,7 +1376,6 @@ img{
     .comparison-grid{
         grid-template-columns:1fr;
     }
-
 }
 
 .about-section{
@@ -1596,7 +1572,6 @@ line-height:1.6;
 .documents-grid{
 grid-template-columns:1fr 1fr;
 }
-
 }
 
 @media(max-width:768px){
@@ -1604,7 +1579,6 @@ grid-template-columns:1fr 1fr;
 .documents-grid{
 grid-template-columns:1fr;
 }
-
 }
 
 .sgk-info-box{
@@ -1755,7 +1729,6 @@ grid-template-columns:1fr;
 .why-avrasya h2{
 font-size:34px;
 }
-
 }
 
 .site-footer{
@@ -1883,7 +1856,6 @@ line-height:1.2;
 font-size:17px;
 line-height:1.8;
 }
-
 }
 
 @media (max-width:768px){
@@ -1892,7 +1864,6 @@ line-height:1.8;
 grid-template-columns:1fr;
 gap:20px;
 }
-
 }
 
 @media (max-width:768px){
@@ -1927,7 +1898,6 @@ grid-template-columns:1fr 1fr;
 gap:12px;
 text-align:center;
 }
-
 }
 
 .contact-page{
@@ -2000,7 +1970,6 @@ grid-template-columns:1fr;
 .contact-info h2{
 font-size:34px;
 }
-
 }
 
 .contact-cta{
@@ -2036,6 +2005,5 @@ padding:50px 20px;
 font-size:32px;
 line-height:1.2;
 }
-
 }
 
