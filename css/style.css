@@ -526,6 +526,10 @@ color:#27A8F2;
 margin-bottom:20px;
 }
 
+.contact-card .btn{
+margin-top:auto;
+}
+
 .footer{
     background:#0f1a3d;
     color:white;
