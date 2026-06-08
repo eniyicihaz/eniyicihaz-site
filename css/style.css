@@ -1989,8 +1989,9 @@ text-align:center;
 box-shadow:0 10px 25px rgba(10,45,115,.08);
 display:flex;
 flex-direction:column;
-justify-content:center;
+justify-content:space-between;
 align-items:center;
+height:320px;
 }
 
 .contact-card a{
