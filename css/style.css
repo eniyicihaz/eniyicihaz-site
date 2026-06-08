@@ -1827,25 +1827,6 @@ gap:20px;
 }
 }
 
-.footer-city-links{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:12px;
-margin:25px 0;
-}
-
-.footer-city-links a{
-color:#fff;
-text-decoration:none;
-font-weight:600;
-transition:.3s;
-}
-
-.footer-city-links a:hover{
-color:#27A8F2;
-}
-
 .sgk-brands{
 padding:80px 20px;
 text-align:center;
