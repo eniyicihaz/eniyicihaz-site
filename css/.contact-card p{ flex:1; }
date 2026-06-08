@@ -1990,6 +1990,7 @@ box-shadow:0 10px 30px rgba(0,0,0,.05);
 display:flex;
 flex-direction:column;
 justify-content:space-between;
+align-items:center;
 }
 
 .contact-card a{
@@ -2006,5 +2007,10 @@ grid-template-columns:1fr;
 
 .contact-info .contact-card:hover{
 transform:translateY(-5px);
+}
+
+.contact-card .btn-primary,
+.contact-card .btn-whatsapp{
+margin-top:auto;
 }
 
