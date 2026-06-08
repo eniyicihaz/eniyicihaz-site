@@ -1989,3 +1989,19 @@ line-height:1.7;
 color:#555;
 }
 
+@media (max-width:768px){
+
+.contact-page h1{
+font-size:38px;
+}
+
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+.contact-info h2{
+font-size:34px;
+}
+
+}
+
