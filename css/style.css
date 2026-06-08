@@ -551,10 +551,11 @@ gap:25px;
 
 .contact-card{
     background:#fff;
-    padding:35px;
+    padding:30px;
     border-radius:20px;
     text-align:center;
     box-shadow:0 10px 30px rgba(0,0,0,.05);
+    text-align:center;
 }
 
 .contact-card a{
