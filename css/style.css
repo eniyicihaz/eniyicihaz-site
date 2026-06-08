@@ -2189,7 +2189,7 @@ transition:.3s;
 
 .contact-map .container{
 display:grid;
-grid-template-columns:2fr 1fr;
+grid-template-columns:1.7fr 1fr;
 gap:40px;
 align-items:start;
 }
@@ -2212,6 +2212,7 @@ font-weight:600;
 background:#fff;
 padding:35px;
 border-radius:20px;
+margin-top:15px;
 box-shadow:0 8px 25px rgba(0,0,0,.05);
 }
 
