@@ -76,8 +76,9 @@ box-shadow:0 8px 20px rgba(30,79,175,.20);
 .btn-primary{
 background:#1E4FAF;
 color:white;
-padding:15px 30px;
+padding:12px 22px;
 border-radius:8px;
+font-size:15px;
 font-weight:bold;
 text-decoration:none;
 }
@@ -85,8 +86,9 @@ text-decoration:none;
 .btn-whatsapp{
 background:#25D366;
 color:white;
-padding:15px 30px;
+padding:12px 22px;
 border-radius:8px;
+font-size:15px;
 font-weight:bold;
 text-decoration:none;
 }
@@ -1884,16 +1886,16 @@ margin-bottom:50px;
 }
 
 .contact-card h3{
-font-size:26px;
-margin-bottom:15px;
+font-size:20px;
+margin-bottom:12px;
 color:#0A2D73;
 }
 
 .contact-card p{
-font-size:18px;
-line-height:1.7;
+font-size:16px;
+line-height:1.5;
 color:#555;
-margin:40px 0;
+margin:15px 0;
 }
     
 @media (max-width:768px){
@@ -1964,16 +1966,6 @@ font-size:34px;
 
 }
 
-.contact-info .contact-card{
-background:#f7fbff;
-border:1px solid #e5edf8;
-padding:40px 30px;
-border-radius:24px;
-text-align:center;
-box-shadow:0 10px 30px rgba(0,0,0,.05);
-transition:.3s;
-}
-
 .contact-grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
@@ -1983,7 +1975,7 @@ gap:25px;
 .contact-card{
 background:#f3f8ff;
 border:1px solid #dbeafe;
-padding:30px;
+padding:20px;
 border-radius:20px;
 text-align:center;
 box-shadow:0 10px 25px rgba(10,45,115,.08);
@@ -2002,15 +1994,18 @@ margin-top:auto;
 .contact-grid{
 grid-template-columns:1fr;
 }
-
 }
 
 .contact-info .contact-card:hover{
 transform:translateY(-5px);
 }
 
-.contact-card .btn-primary,
-.contact-card .btn-whatsapp{
-margin-top:auto;
+.contact-info .contact-card{
+background:#f7fbff;
+border:1px solid #e5edf8;
+padding:25px 20px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 6px 20px rgba(0,0,0,.04);
+transition:.3s;
 }
-
