@@ -2098,3 +2098,24 @@ transition:.3s;
     margin:auto;
 }
 
+.contact-trust{
+padding:60px 20px;
+background:#f7fbff;
+text-align:center;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.trust-item{
+background:#fff;
+padding:25px;
+border-radius:18px;
+box-shadow:0 8px 25px rgba(0,0,0,.05);
+font-weight:600;
+}
+
