@@ -2276,3 +2276,14 @@ line-height:1.7;
 color:#666;
 }
 
+.contact-page-card p{
+font-size:18px;
+line-height:1.7;
+}
+
+.contact-page-card:first-child p{
+font-size:22px;
+font-weight:700;
+color:#0A2D73;
+}
+
