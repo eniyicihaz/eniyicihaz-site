@@ -2288,3 +2288,13 @@ font-weight:700;
 color:#0A2D73;
 }
 
+.contact-map iframe{
+width:100%;
+height:500px;
+display:block;
+}
+
+.contact-map{
+padding-bottom:60px;
+}
+
