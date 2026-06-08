@@ -2207,3 +2207,38 @@ box-shadow:0 8px 25px rgba(0,0,0,.05);
 font-weight:600;
 }
 
+.map-features{
+background:#fff;
+padding:35px;
+border-radius:20px;
+box-shadow:0 8px 25px rgba(0,0,0,.05);
+}
+
+.map-features h3{
+font-size:32px;
+color:#0A2D73;
+margin-bottom:20px;
+}
+
+.feature-list{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.feature-list li{
+margin-bottom:16px;
+font-size:17px;
+font-weight:600;
+line-height:1.6;
+}
+
+.feature-text{
+margin-top:25px;
+padding-top:20px;
+border-top:1px solid #e8eef5;
+line-height:1.8;
+color:#555;
+font-size:15px;
+}
+
