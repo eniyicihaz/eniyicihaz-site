@@ -508,7 +508,7 @@ gap:25px;
     margin-bottom:50px;
 }
 
-.contact-card{
+.contact-page-card
     background:#fff;
     padding:30px;
     border-radius:20px;
@@ -1945,7 +1945,7 @@ line-height:1.2;
 
 @media(max-width:768px){
 
-.contact-grid{
+.contact-page-grid
 grid-template-columns:1fr;
 }
 
@@ -1954,7 +1954,7 @@ font-size:34px;
 }
 }
 
-.contact-grid{
+.contact-page-grid
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:25px;
