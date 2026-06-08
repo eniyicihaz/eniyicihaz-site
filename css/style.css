@@ -236,13 +236,6 @@ border-radius:20px;
     line-height:1.6;
 }
 
-@media(max-width:900px){
-
-    .why-grid{
-        grid-template-columns:1fr;
-    }
-}
-
 .brands{
     padding:100px 0;
     background:#f7fbff;
@@ -1643,6 +1636,14 @@ grid-template-columns:repeat(4,1fr);
 gap:25px;
 }
 
+@media(max-width:900px){
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+
 .why-card{
 background:#fff;
 padding:35px;
@@ -1899,6 +1900,11 @@ color:#555;
 
 .contact-page h1{
 font-size:38px;
+}
+
+.contact-page p{
+font-size:18px;
+line-height:1.7;
 }
 }
 
