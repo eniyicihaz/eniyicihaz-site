@@ -19,9 +19,11 @@ margin:auto;
 .header{
 background:white;
 box-shadow:0 2px 15px rgba(0,0,0,.08);
-position:sticky;
+position:fixed;
 top:0;
-z-index:1000;
+left:0;
+width:100%;
+z-index:9999;
 }
 
 .header .container{
