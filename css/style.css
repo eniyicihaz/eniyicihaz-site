@@ -17,13 +17,11 @@ margin:auto;
 }
 
 .header{
-background:white;
+background:red !important;
 box-shadow:0 2px 15px rgba(0,0,0,.08);
-position:fixed;
+position:sticky;
 top:0;
-left:0;
-width:100%;
-z-index:9999;
+z-index:1000;
 }
 
 .header .container{
