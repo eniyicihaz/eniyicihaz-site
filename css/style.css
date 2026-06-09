@@ -963,6 +963,11 @@ img{
     transition:.3s;
 }
 
+.floating-phone i{
+    font-size:30px;
+    transform:rotate(-12deg);
+}
+
 .floating-buttons a:hover{
     transform:scale(1.08);
 }
